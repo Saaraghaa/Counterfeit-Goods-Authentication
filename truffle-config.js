@@ -12,3 +12,9 @@ module.exports = {
       }
     }
 }; 
+
+const LuxuryGoods = artifacts.require("LuxuryGoods"); 
+
+module.exports = function (deployer) {
+  deployer.deploy(LuxuryGoods);
+};
